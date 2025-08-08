@@ -1,0 +1,200 @@
+{
+  "header": {
+    "logo": {
+      "src": "/images/white_logo.svg",
+      "alt": "NFT Platform"
+    },
+    "navigation": [
+      { "label": "Home", "href": "/" },
+      { "label": "Items1", "href": "#" },
+      { "label": "Items2", "href": "#" },
+      { "label": "Items3", "href": "#" },
+      { "label": "Items4", "href": "#" }
+    ],
+    "actions": [
+      { "label": "Sign Up", "type": "primary", "href": "#" },
+      { "label": "Log in", "type": "secondary", "href": "#" }
+    ]
+  },
+  "heros": [
+    {
+      "image": {
+      "src": "/images/hero/hero.png",
+      "alt": "NFT Hero Image"
+      },
+      "title": "Discover Unique NFT Collections",
+      "description": "Explore, buy, and sell extraordinary NFTs on our premier marketplace"
+    },
+    {
+      "image": {
+      "src": "/images/hero/hero.png",
+      "alt": "NFT Hero Image"
+      },
+      "title": "Discover Unique NFT Collections",
+      "description": "Explore, buy, and sell extraordinary NFTs on our premier marketplace"
+    }
+  ],
+  "features": [
+    {
+      "id": 1,
+      "title": "Free to earn",
+      "image": "/images/features/cashback.svg",
+      "description": "Earn rewards and cashback through our free-to-play platform"
+    },
+    {
+      "id": 2,
+      "title": "Ranking",
+      "image": "/images/features/ranking.svg",
+      "description": "Compete and climb the leaderboards with other NFT enthusiasts"
+    },
+    {
+      "id": 3,
+      "title": "Live Trading",
+      "image": "/images/features/live.svg",
+      "description": "Real-time NFT trading platform with instant transactions"
+    },
+    {
+      "id": 4,
+      "title": "Racing Games",
+      "image": "/images/features/racing_fill.svg",
+      "description": "Exclusive racing NFT collections and gaming experiences"
+    },
+    {
+      "id": 5,
+      "title": "Live Casino",
+      "image": "/images/features/livecasino.svg",
+      "description": "Premium casino-themed NFT experiences and gaming",
+      "badge": "New"
+    },
+    {
+      "id": 6,
+      "title": "Mini Games",
+      "image": "/images/features/minigames_fill.svg",
+      "description": "Fun mini-games with exclusive gaming NFT collectibles"
+    }  
+  ],
+  "newCollections": {
+    "title": "New Collections",
+    "items": [
+      {
+        "id": 1,
+        "image": "/images/nft/collections/rectangle.svg",
+        "title": "Abstract Art Collection",
+        "description": "Unique digital abstract artworks from emerging artists"
+      },
+      {
+        "id": 2,
+        "image": "/images/nft/collections/rectangle_1.svg",
+        "title": "Digital Portraits", 
+        "description": "Premium digital portrait collection by renowned artists"
+      },
+      {
+        "id": 3,
+        "image": "/images/nft/collections/rectangle_2.svg",
+        "title": "Future Cities",
+        "description": "Futuristic cityscape designs and architectural concepts"
+      },
+      {
+        "id": 4,
+        "image": "/images/nft/collections/rectangle_3.svg",
+        "title": "Crypto Punks",
+        "description": "Iconic pixel art characters in the metaverse"
+      },
+      {
+        "id": 5,
+        "image": "/images/nft/collections/rectangle_4.svg",
+        "title": "Space Odyssey",
+        "description": "Cosmic adventures and space exploration themes"
+      },
+      {
+        "id": 6,
+        "image": "/images/nft/collections/rectangle_5.svg",
+        "title": "Mystic Creatures",
+        "description": "Mythical beings and fantasy creature collections"
+      }
+    ]
+  },
+  "contentSections": {
+    "calendar": {
+      "title": "NFT Drops Calendar",
+      "items": [
+        {
+          "id": 1,
+          "image": "/images/nft/calendar/image.png",
+          "title": "Sport Racing NFTs",
+          "description": "Premium racing collectibles and motorsport-themed NFTs"
+        },
+        {
+          "id": 2,
+          "image": "/images/nft/calendar/image.png",
+          "title": "Mobile App Launch",
+          "description": "Trade NFTs on the go with our new mobile application"
+        }
+      ]
+    },
+    "populars": {
+      "title": "Hot NFT",
+      "items": [
+        {
+          "id": 1,
+          "title": "Premium Collections",
+          "description": "Discover hand-picked premium NFT collections from top artists worldwide",
+          "image": "/images/nft/populars/image_1.svg"
+        }     
+      ]
+    },
+    "promotions": {
+      "title": "Promotion",
+      "items": [
+        {
+          "id": 2,
+          "title": "Secure Trading",
+          "description": "Trade with confidence using our secure blockchain technology",
+          "image": "/images/nft/promotions/image_2.svg"
+        }
+      ]
+    }
+  },
+  "footer": [
+    {
+      "title": "About Us",
+      "links": [
+        { "label": "Careers", "href": "#" },
+        { "label": "Company Details", "href": "#" },
+        { "label": "Terms & Conditions", "href": "#" },
+        { "label": "Help Center", "href": "#" },
+        { "label": "Privacy Policy", "href": "#" },
+        { "label": "Affiliate", "href": "#" }
+      ]
+    },
+    {
+      "title": "Products",
+      "links": [
+        { "label": "NFT Marketplace", "href": "#" },
+        { "label": "Slingshot", "href": "#" },
+        { "label": "Swaps", "href": "#" },
+        { "label": "NFT Launchpad", "href": "#" },
+        { "label": "Runes Platform", "href": "#" },
+        { "label": "Creator Dashboard", "href": "#" }
+      ]
+    },
+    {
+      "title": "Resources",
+      "links": [
+        { "label": "Support", "href": "#" },
+        { "label": "API", "href": "#" },
+        { "label": "Feature Requests", "href": "#" },
+        { "label": "Trust & Safety", "href": "#" },
+        { "label": "Sitemap", "href": "#" }
+      ]
+    },
+    {
+      "title": "Contact Us",
+      "links": [
+        { "label": "support@tech.email", "href": "#" },
+        { "label": "affiliate@tech.com", "href": "#" },
+        { "label": "", "href": "#", "src": "/images/footer/installapp.svg" }
+      ]
+    }
+  ]
+}

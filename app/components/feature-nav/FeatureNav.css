@@ -1,0 +1,121 @@
+.feature-nav {
+  background-color: #1F2023;
+  padding: var(--spacing-lg) 0;
+  margin-bottom: 5rem;
+  overflow: hidden;
+}
+
+.feature-nav__grid {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--spacing-sm);
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.feature-nav__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-xs);
+  position: relative;
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  flex: 1;
+  max-width: 120px;
+}
+
+.feature-nav__icon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-nav__icon img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.feature-nav__title {
+  font-size: var(--font-size-sm);
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-normal);
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.2;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.feature-nav__badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transform: translate(50%, -50%);
+  background-color: var(--color-destructive);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-xs);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .feature-nav {
+    padding: var(--spacing-md) 0;
+    margin-bottom: 2.5rem;
+  }
+
+  .feature-nav__grid {
+    gap: var(--spacing-xs);
+  }
+
+  .feature-nav__item {
+    max-width: 80px;
+  }
+
+  .feature-nav__icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .feature-nav__title {
+    font-size: var(--font-size-xs);
+    line-height: 1.1;
+  }
+
+  .feature-nav__badge {
+    padding: 1px 4px;
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .feature-nav {
+    padding: var(--spacing-md) 0;
+  }
+
+  .feature-nav__grid {
+    gap: 4px;
+  }
+
+  .feature-nav__item {
+    max-width: 60px;
+    gap: var(--spacing-xs);
+  }
+
+  .feature-nav__icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .feature-nav__title {
+    font-size: 9px;
+    line-height: 1.0;
+  }
+}
